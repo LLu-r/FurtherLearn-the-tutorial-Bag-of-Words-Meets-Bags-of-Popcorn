@@ -6,7 +6,13 @@ DeepLearningMovies
 
 教程地址：https://www.kaggle.com/competitions/word2vec-nlp-tutorial
 
-目标：
+资料：
+
+GloVe模型：https://github.com/stanfordnlp/GloVe
+
+glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
+
+# 目标：
 
 1.数据清洗并创建GloVe特征
 
@@ -17,13 +23,7 @@ DeepLearningMovies
 4.提交测评并统计得分
 
 
-资料：
-
-GloVe模型：https://github.com/stanfordnlp/GloVe
-
-glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
-
-实验测评结果：
+# 实验测评结果：
 
 |        | cnn       | lstm       | cnnlstm      | attention_lstm       | gru      |
 | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- |
