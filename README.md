@@ -1,5 +1,12 @@
 # FurtherLearn-the-tutorial-Bag-of-Words-Meets-Bags-of-Popcorn
+DeepLearningMovies
+==================
 
+本次任务不再使用Word2Vec进行。而是以GloVe进行
+
+教程地址：https://www.kaggle.com/competitions/word2vec-nlp-tutorial
+
+目标：
 
 
 
