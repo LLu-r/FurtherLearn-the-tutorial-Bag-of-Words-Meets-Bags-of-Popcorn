@@ -8,6 +8,13 @@ DeepLearningMovies
 
 目标：
 
+1.数据清洗并创建GloVe特征
+
+2.尝试早期的cnn、rnn、lstm和注意力机制训练并预测
+
+3.生成预测结果
+
+4.提交测评
 
 
 资料：
