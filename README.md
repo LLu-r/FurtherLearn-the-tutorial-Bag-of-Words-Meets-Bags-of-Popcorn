@@ -22,3 +22,9 @@ DeepLearningMovies
 GloVe模型：https://github.com/stanfordnlp/GloVe
 
 glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
+
+实验测评结果：
+
+| 表头1       | 表头2       | 表头3       | 表头4       | 表头5       |
+| :---------- | :---------- | :---------- | :---------- | :---------- |
+| 内容1       | 内容2       | 内容3       | 内容4       | 内容5       |
