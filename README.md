@@ -27,6 +27,11 @@ glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
 1.得到glove.840B.300d文件后还不能于imdb_process.py中生成特征，需要转换为.gensim文件，
 用“资料”中获取的glove-gensim.py生成glove.840B.300d.gensim文件。
 
+2.glove.840B.300d.gensim文件置于目录下，运行imdb_process.py得到./pickle/imdb_glove.pickle3文件。
+
+3.kaggle平台中导入model、testData.tsv。调整imdb_cnn等文件代码训练并预测得到对应结果。
+
+4.生成的.csv文件包含25,000行加上一行头部，有两列：“id”和“sentiment”。提交到教程测评得到评分。
 
 # 实验测评结果：
 
