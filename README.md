@@ -12,7 +12,7 @@ GloVe模型：https://github.com/stanfordnlp/GloVe
 
 glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
 
-# 目标：
+### 目标：
 
 1.数据清洗并创建GloVe特征
 
@@ -22,7 +22,7 @@ glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
 
 4.提交测评并统计得分
 
-# 实验过程记录
+### 实验过程记录
 
 1.得到glove.840B.300d文件后还不能于imdb_process.py中生成特征，需要转换为.gensim文件，
 用“资料”中获取的glove-gensim.py生成glove.840B.300d.gensim文件。
@@ -33,7 +33,7 @@ glove.840B.300d转为.gensim文件：https://github.com/manasRK/glove-gensim
 
 4.生成的.csv文件包含25,000行加上一行头部，有两列：“id”和“sentiment”。提交到教程测评得到评分。
 
-# 实验测评结果：
+### 实验测评结果：
 
 |        | cnn       | lstm       | cnnlstm      | attention_lstm       | gru      |
 | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- |
